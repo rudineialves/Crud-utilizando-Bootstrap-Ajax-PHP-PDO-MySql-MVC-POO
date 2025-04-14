@@ -49,7 +49,7 @@ git clone https://github.com/rudineialves/Crud-utilizando-Bootstrap-Ajax-PHP-PDO
 
 2. Importe o banco de dados:
 
-Vá até o arquivo database.sql e importe no seu MySQL.
+Vá até o arquivo users_table.sql e importe no seu MySQL.
 
 3. Configure o banco:
 
