@@ -36,7 +36,7 @@ Um sistema completo de CRUD (Create, Read, Update, Delete) utilizando boas prát
 
 ## 📸 Demonstração
 
-http://nwdhostserver.com.br/rudinei/crud_php_users/
+http://rudinei.nwdhostserver.com.br/crud_php_users/
 
 ---
 
