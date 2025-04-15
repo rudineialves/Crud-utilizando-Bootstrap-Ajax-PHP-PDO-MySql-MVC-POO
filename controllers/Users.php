@@ -31,10 +31,10 @@
 
 			$user = new User($id);				
 			
-            $user->setName($name);
-            $user->setEmail($email);
-            $user->setLogin($login);
-            $user->setPassword($password);		
+			$user->setName($name);
+			$user->setEmail($email);
+			$user->setLogin($login);
+			$user->setPassword($password);		
 
 			$res = $user->applyUpdate();
 
@@ -58,7 +58,7 @@
 			$result = array();
 
 			$usersList = new UsersList();			
-            $usersList->filterByKey($key);
+			$usersList->filterByKey($key);
 			$getList = $usersList->getList();
 
 			foreach($getList as $item){
@@ -110,14 +110,12 @@
 
 		$item = array();
 		
-        $item['id']       = $obj->getId();
-        $item['name']     = $obj->getName();
-        $item['email']    = $obj->getEmail();
-        $item['login']    = $obj->getLogin();
-        $item['password'] = $obj->getPassword();
-        $item['active']   = $obj->getActive();		
+	        $item['id']       = $obj->getId();
+	        $item['name']     = $obj->getName();
+	        $item['email']    = $obj->getEmail();
+	        $item['login']    = $obj->getLogin();
+	        $item['password'] = $obj->getPassword();
+	        $item['active']   = $obj->getActive();		
 
 		return $item;
 	}
-
-?>
